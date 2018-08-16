@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end"
+    android:foreground="?attr/selectableItemBackground"
+    android:maxHeight="100dp"
+    android:orientation="horizontal"
+    android:visibility="visible">
+
+    <Button
+        android:id="@+id/outgoing_message_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="10dp"
+        android:background="@drawable/outgoing_bubble"
+        android:clipToPadding="false"
+        android:elevation="4dp"
+        android:text="hi"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+</RelativeLayout>

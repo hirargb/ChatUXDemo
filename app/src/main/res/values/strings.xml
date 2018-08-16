@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ChatUX</string>
+    <string name="prompt_message">Say something</string>
+</resources>
